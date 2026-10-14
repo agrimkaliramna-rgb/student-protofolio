@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a first-year B.Tech Computer Science Engineering student.">
+  <title>My Portfolio | CSE Student</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">My<span>Portfolio.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="hero section">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">HELLO, WORLD! 👋</p>
+          <h1>Hi, I'm <span class="gradient-text">Your Name</span></h1>
+          <h2>Aspiring Software Developer</h2>
+          <p class="hero-description">
+            I'm a first-year B.Tech CSE student passionate about coding,
+            technology, and building projects that solve real-world problems.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Explore My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/" target="_blank"
+              rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/" target="_blank"
+              rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="profile-icon">&lt;/&gt;</div>
+            <p class="profile-label">STUDENT DEVELOPER</p>
+            <h3>Learning. Building. Growing.</h3>
+            <div class="code-line"><span>01</span> #include &lt;stdio.h&gt;</div>
+            <div class="code-line"><span>02</span> int main() {</div>
+            <div class="code-line indent"><span>03</span> printf("Hello!");</div>
+            <div class="code-line"><span>04</span> return 0;</div>
+            <div class="code-line"><span>05</span> }</div>
+            <div class="status"><span></span> Open to learning opportunities</div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint">Scroll to explore ↓</a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2>About <span class="gradient-text">Me</span></h2>
+          <p>A little about my journey into technology.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-symbol">🚀</div>
+            <h3>My Journey</h3>
+            <p>
+              I'm beginning my journey in Computer Science Engineering.
+              I enjoy exploring how software works and turning ideas into
+              practical applications.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-symbol">💡</div>
+            <h3>My Interests</h3>
+            <p>
+              I'm interested in programming, web development, artificial
+              intelligence, problem-solving, and learning new technologies.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-symbol">🎯</div>
+            <h3>My Goal</h3>
+            <p>
+              My goal is to strengthen my programming fundamentals, build
+              useful projects, and grow into a skilled software engineer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I'M LEARNING</p>
+          <h2>Technical <span class="gradient-text">Skills</span></h2>
+          <p>My current learning toolkit.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-icon">&lt;/&gt;</span>
+            <h3>C Programming</h3>
+            <p>Variables, loops, conditions, and functions</p>
+            <span class="skill-tag">Learning</span>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🌐</span>
+            <h3>HTML5</h3>
+            <p>Webpage structure and semantic elements</p>
+            <span class="skill-tag">Learning</span>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🎨</span>
+            <h3>CSS3</h3>
+            <p>Styling, layouts, and responsive design</p>
+            <span class="skill-tag">Learning</span>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">⚡</span>
+            <h3>JavaScript</h3>
+            <p>Basic logic and interactive web pages</p>
+            <span class="skill-tag">Learning</span>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🛠️</span>
+            <h3>Tools</h3>
+            <p>VS Code, Git, and GitHub fundamentals</p>
+            <span class="skill-tag">Exploring</span>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">🧠</span>
+            <h3>Problem Solving</h3>
+            <p>Logical thinking and algorithm basics</p>
+            <span class="skill-tag">Practicing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I'M BUILDING</p>
+          <h2>My <span class="gradient-text">Projects</span></h2>
+          <p>Some projects to practice and demonstrate my skills.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-banner banner-purple">
+              <span>🧑‍💻</span>
+              <span class="project-number">PROJECT 01</span>
+            </div>
+            <div class="project-body">
+              <h3>Personal Portfolio</h3>
+              <p>
+                A responsive website introducing me, my skills, my projects,
+                and my learning journey.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="https://github.com/" target="_blank"
+                rel="noopener noreferrer" class="project-link">
+                View Code ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-banner banner-blue">
+              <span>📝</span>
+              <span class="project-number">PROJECT 02</span>
+            </div>
+            <div class="project-body">
+              <h3>To-Do List App</h3>
+              <p>
+                A simple task manager to add, complete, and organize
+                everyday activities.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="https://github.com/" target="_blank"
+                rel="noopener noreferrer" class="project-link">
+                View Code ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-banner banner-green">
+              <span>🎓</span>
+              <span class="project-number">PROJECT 03</span>
+            </div>
+            <div class="project-body">
+              <h3>Student Utility App</h3>
+              <p>
+                A beginner-friendly concept for helping students organize
+                their study schedules and daily tasks.
+              </p>
+              <div class="tags">
+                <span>Problem Solving</span><span>Web Basics</span>
+              </div>
+              <a href="https://github.com/" target="_blank"
+                rel="noopener noreferrer" class="project-link">
+                View Code ↗
+              </a>
+            </div>
+          </article>
+        </div>
+        <p class="demo-note">
+          Note: These are sample project descriptions. Replace them with
+          projects you have actually built and link to their repositories.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+          <h2>My <span class="gradient-text">Education</span></h2>
+          <p>The foundation of my technology journey.</p>
+        </div>
+
+        <div class="education-timeline">
+          <article class="education-item">
+            <div class="timeline-dot"></div>
+            <div class="education-card">
+              <span class="education-year">2026 – Present</span>
+              <h3>B.Tech in Computer Science Engineering</h3>
+              <p class="education-place">Your College / University</p>
+              <p>
+                Exploring programming, computer fundamentals, mathematics,
+                and software development.
+              </p>
+            </div>
+          </article>
+
+          <article class="education-item">
+            <div class="timeline-dot"></div>
+            <div class="education-card">
+              <span class="education-year">Completed</span>
+              <h3>Senior Secondary Education (Class XII)</h3>
+              <p class="education-place">Your School Name</p>
+              <p>
+                Built a foundation in mathematics, science, and analytical
+                problem-solving.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Contact <span class="gradient-text">Me</span></h2>
+          <p>Have an idea, a project, or an opportunity? Let's talk.</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-info">
+            <h3>Get in touch</h3>
+            <p>
+              I'm happy to connect with fellow students, developers,
+              and people interested in technology.
+            </p>
+            <div class="contact-detail">
+              <span>✉️</span>
+              <div>
+                <small>Email</small>
+                <a href="mailto:your.email@example.com">
+                  your.email@example.com
+                </a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span>💻</span>
+              <div>
+                <small>GitHub</small>
+                <a href="https://github.com/" target="_blank"
+                  rel="noopener noreferrer">Explore my GitHub ↗</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span>🔗</span>
+              <div>
+                <small>LinkedIn</small>
+                <a href="https://www.linkedin.com/" target="_blank"
+                  rel="noopener noreferrer">Connect with me ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name"
+              placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email"
+              placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5"
+              placeholder="Write your message..." required></textarea>
+
+            <button type="submit" class="btn btn-primary">
+              Send Message ↗
+            </button>
+            <p class="form-note" id="form-note" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">My<span>Portfolio.</span></a>
+      <p>Designed & built with ❤️ by Your Name</p>
+      <p>© <span id="year"></span> All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
